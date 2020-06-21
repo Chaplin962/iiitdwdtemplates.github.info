@@ -1,0 +1,209 @@
+#body-a {
+	padding: 30px 200px 50px 250px;
+}
+#logo {
+	height: 70px;
+}
+#imgs-back {	
+	background: #E3E3E3;
+	height: 450px;
+	width: 100vw;
+	margin: 30px -200px 50px -275px;
+	box-shadow: 0px 28px 20px -20px #BABABA;
+}
+#IIIT-Dharwad {	
+	position: absolute;
+	top: 13px;
+	left: 550px;
+	font-family: "impact";
+	font-weight: 1;	
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-size: 300%;
+	color: #253B79;
+}
+
+#img1 {
+	z-index: 1;
+	position: absolute;	
+	top: 188px;
+	left: 250px;	
+	height: 450px;
+	width: 900px;	
+	opacity: 0%;			
+	animation-name: img;
+	-webkit-animation-name: img;
+	animation-duration: 20s;
+	-webkit-animation-duration:20s;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation-iteration-count: infinite;	
+	animation-timing-function: ease-in-out;
+}
+#img2 {
+	z-index: 2;
+	position: absolute;	
+	top: 188px;
+	left: 250px;	
+	height: 450px;
+	width: 900px;
+	opacity: 0%;		
+	animation-name: img;
+	-webkit-animation-name: img;
+	animation-duration: 20s;
+	-webkit-animation-duration:20s;
+	animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;	
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+#img3 {
+	z-index: 3;
+	position: absolute;	
+	top: 188px;
+	left: 250px;	
+	height: 450px;
+	width: 900px;	
+	opacity: 0%;		
+	animation-name: img;
+	-webkit-animation-name: img;
+	animation-duration: 20s;
+	-webkit-animation-duration:20s;;
+	animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation-iteration-count: infinite;	
+	animation-timing-function: ease-in-out;
+}
+#img4 {
+	z-index: 4;
+	position: absolute;	
+	top: 188px;
+	left: 250px;	
+	height: 450px;
+	width: 900px;
+	opacity: 0%;				
+	animation-name: img;
+	-webkit-animation-name: img;
+	animation-duration: 20s;
+	-webkit-animation-duration:20s;
+	animation-delay: 15s;
+	-webkit-animation-delay: 15s;
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation-iteration-count: infinite;	
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes img {
+	0% {opacity: 0%;}
+	20% {opacity: 100%;}	
+	25% {opacity: 100%;}
+	35% {opacity: 0%;}
+}
+
+#links *:hover {
+	background: #818181;
+	color: white;
+	animation-name: ho-op;
+	-webkit-animation-name: ho-op;
+	animation-duration: 0.2s;
+	-webkit-animation-duration:0.2s;	
+	animation-fill-mode: forwards;
+	-webkit-animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+}
+@keyframes ho-op {
+	0% {opacity: 0%;}
+	100%{opacity: 100%}
+}
+
+#home {	
+	top: 140px;
+	left: 250px;
+	position: absolute;
+	background: white;
+	color: black;		
+	padding: 15px;
+}
+#academics {	
+	top: 140px;
+	left: 321px;
+	position: absolute;
+	background: #253B79;
+	color: white;	
+	padding: 15px;
+}
+#admissions {	
+	top: 140px;
+	left: 423px;
+	position: absolute;
+	background: white;
+	color: black;	
+	padding: 15px;
+}
+#campus {	
+	top: 140px;
+	left: 529px;
+	position: absolute;
+	background: white;
+	color: black;	
+	padding: 15px;
+}
+#events {	
+	top: 140px;
+	left: 613px;
+	position: absolute;
+	background: white;
+	color: black;	
+	padding: 15px;
+}
+
+#links * {
+	text-decoration: none;
+	font-family: "Candara";
+}	
+
+#gap {
+	height: 28px;
+}
+#end {
+	background: #5B5A5A;
+	height: 140px;
+	width: 100vw;
+	margin: 30px -200px -150px -275px;
+}
+
+#rights {	
+	position: relative;
+	color: white;
+	bottom: -50px;
+}
+#links2  {
+	position: relative;	
+	bottom: -35px;
+}
+#links2 * {	
+	color: white;	
+	text-decoration: none;
+	font-family: "Candara";	
+}
+#above-not * {
+	font-family: "impact";
+	font-weight: 1;	
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	font-size: 270%;
+	color: #5B5A5A;
+}
+#notification * {
+	font-size: 105%;
+	font-family: "Candara";
+	color: #4E4E4E;
+}
+#not-line {	
+	opacity:50%;
+}
